@@ -1,0 +1,56 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.main {
+	-fx-background-color: transparent ;
+}
+
+.cover {
+	-fx-background-color: linear-gradient(to bottom right,#6AAB9C,#4A707A)  ;
+	-fx-background-radius: 15px  ;
+
+}
+
+.operations {
+	-fx-background-color: linear-gradient(to bottom right,#94B0B7,#DDDDDA)  ;
+	-fx-background-radius: 15px  ;
+	-fx-padding: 0px 0px 0px 25px ;
+}
+.result {
+	-fx-background-color: linear-gradient(to bottom right,#94B0B7,#DDDDDA)  ;
+	-fx-background-radius: 15px  ;
+	-fx-font-size: 19px;
+}
+
+
+.buttons {
+	-fx-background-color: linear-gradient(to bottom right,#6AAB9C,#4A707A)  ;
+	-fx-background-radius: 0px  ;
+	-fx-cursor:hand;
+}
+
+.buttons:hover {
+	-fx-background-color: linear-gradient(to bottom right,#94B0B7,#DDDDDA)  ;
+}
+
+.reset {
+	-fx-background-color: linear-gradient(to bottom right,#6AAB9C,#4A707A) ;
+}
+
+.reset:hover {
+	-fx-background-color: linear-gradient(to bottom right,#94B0B7,#DDDDDA) ;
+	-fx-cursor: hand;
+}
+
+.exit {
+	-fx-background-color: linear-gradient(to bottom right,#94B0B7,#DDDDDA) ;
+	-fx-background-radius: 5px;
+}
+
+.exit:hover {
+	-fx-background-color: #E06C78 ;
+	-fx-cursor:hand ;
+}
+
+
+
+
